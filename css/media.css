@@ -1,0 +1,64 @@
+@media (max-width: 1150px) {
+    .about-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .team-img {
+        width: 100%;
+        height: auto;
+        max-height: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    #about > p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 907px) {
+    #about > p {
+        font-size: 13px;
+    }
+
+    #team > p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 920px) {
+    .sub-header {
+        font-size: 29px;
+    }
+
+    .sub-header-team {
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 880px) {
+    .main-title {
+        font-size: 70px;
+        line-height: 120px;
+    }
+
+    .secondary-title {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+@media (max-width: 850px) {
+    .sub-header {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 805px) {
+    .main-menu > li {
+        width: 115px;
+    }
+}
+
+
