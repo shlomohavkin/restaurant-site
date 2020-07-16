@@ -142,11 +142,20 @@ body {
     margin-top: 114px;
     margin-bottom: 87px;
 }
+/* base grid */
 
 .grid {
     display: flex;
     flex-wrap: wrap;
     margin: -40px;
+}
+
+.grid.grid__small-margin {
+    margin: -5px;
+}
+
+.grid.grid__small-margin .item-wrapper {
+    margin: 5px;
 }
 
 .grid-center {
@@ -156,6 +165,12 @@ body {
 .grid2 .item {
     width: 50%;
 }
+
+.item-wrapper {
+    margin: 40px;
+}
+
+/* base grid */
 
 .sub-header {
     text-transform: uppercase;
@@ -176,10 +191,6 @@ body {
 
 .text-about {
     font-weight: bold;
-}
-
-.item-wrapper {
-    margin: 40px;
 }
 
 .container-about {
