@@ -304,3 +304,13 @@ body {
     margin: 0 auto;
     max-width: 1400px;
 }
+/* controls */
+.base-input {
+    line-height: 20px;
+    padding: 19px 20px;
+    border: 1px solid #b5b5b5;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #E5E5E5;
+}
