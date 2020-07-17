@@ -224,6 +224,7 @@ body {
     margin-bottom: 87px;
 }
 
+/* grid team */
 .grid-team {
     display: flex;
     flex-wrap: wrap;
@@ -237,6 +238,11 @@ body {
 .grid2-team .item-team {
     width: 50%;
 }
+
+.item-wrapper-team {
+    margin: 40px;
+}
+/* grid team */
 
 .sub-header-team {
     text-transform: uppercase;
@@ -257,10 +263,6 @@ body {
 
 .text-team {
     font-weight: bold;
-}
-
-.item-wrapper-team {
-    margin: 40px;
 }
 
 .container-team {
