@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./javascript/javascript.js">
 </head>
 
 <body>
@@ -28,7 +29,7 @@
             <h1 class="main-title">Hungry people</h1>
             <div class="small-center-line"></div>
             <a href="#booking" class="button1">Book Table</a>
-            <a href="#abouts" class="button1 button2">Explore</a>
+            <a href="" class="button1 button2">Explore</a>
         </div>
     </header>
     <div class="container-about" id="about-button">
@@ -40,7 +41,7 @@
                         <div class="small-center-line-about"></div>
                         <p class="text-about">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est
-                            a, tempor magna. 
+                            a, tempor magna.
                         </p>
                         <p>Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
                             ligula.
@@ -77,7 +78,7 @@
                             <p class="text-team">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
                                 molestie est
-                                a, tempor magna. 
+                                a, tempor magna.
                             </p>
                             <p>Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non
                                 ultrices
@@ -102,30 +103,30 @@
                     <section id="booking">
                         <h2 class="sub-header">book a table</h2>
                         <div class="small-center-line-about"></div>
-                        <form class="grid grid2 grid__small-margin">
+                        <form class="grid grid2 grid__small-margin" action="action.php" id='booking-form'> 
                             <div class="item">
                                 <div class="item-wrapper" style="margin-top: 20px;">
-                                    <input type="text" class="base-input" placeholder="Name">
+                                    <input type="text" class="base-input" placeholder="Name" id='name-input'>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="item-wrapper" style="margin-top: 20px;">
-                                    <input type="text" class="base-input" placeholder="People">
+                                    <input type="number" class="base-input" placeholder="People" id='people-input'>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="item-wrapper">
-                                    <input type="text" class="base-input" placeholder="Phone">
+                                    <input type="text" class="base-input" placeholder="Phone" id='phone-input'>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="item-wrapper">
-                                    <input type="text" class="base-input" placeholder="Time">
+                                    <input type="time" class="base-input" placeholder="Time" id='time-input'>
                                 </div>
                             </div>
                             <div class="item2">
                                 <div class="item-wrapper">
-                                    <button type="submit" class="button-booking">book now</button>
+                                    <input type="button" class="button-booking" value="Book now" id="book-button">
                                 </div>
                             </div>
                         </form>
@@ -154,7 +155,8 @@
             assumenda officiis dolore incidunt eligendi cupiditate. Obcaecati iste totam ratione
             nostrum? Eum totam
             tempore culpa quis!</p>
-    </section> 
+    </section>
+    <script src="./javascript/javascript.js"></script>
 </body>
 
 
